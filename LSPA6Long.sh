@@ -442,12 +442,4 @@ with open(csvFile, 'wb') as csvfile:
 csvfile.close()
 
 
-        #newTspE4C21b = 'CACTATTCGTAAGGTCATCC'
-        #newTspE4C21b2 = 'GCGACCCGCAGCGATAAACT'
-        #newTspE4C21bR = 'AGTTTATCGCTGCGGGTCGC'
-        #newTspE4C21bR2 = 'GGATGACCTTACGAATAGTG'
-        #newAceKf = 'AACGCTATTCGCCAGCTTGC'
-        #newAceKf2 = 'TAGCGTACGGTATGGGGAGA'
-        #newArpA1r = 'TCTCCCCATACCGTACGCTA'
-        #newAprA1r2 = 'GCAAGCTGGCGAATAGCGTT'
-        
+       
