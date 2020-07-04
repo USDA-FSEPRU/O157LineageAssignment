@@ -14,11 +14,13 @@ The LSPA6 lineage typing is based on:
 
 ### Input
 * Open Terminal
-```Call program ./LSPA6Long.sh [output CSV File Name] [Fasta File(s)]```
+* Call program 
+```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)]```
 
 ### Output
 * A .csv file will be created containing concise information about each strain or contig (as separated by >).
 * Unless directed to a different location, the output CSV file will be created wherever the script is located.
 
 E.g.: Output
-Verbose output on the screen is also an output. This output can be sent to a file. ```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)] > Information.txt```
+Verbose output on the screen is also an output. This output can be sent to a file. 
+```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)] > Information.txt```
