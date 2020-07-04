@@ -17,8 +17,7 @@ The LSPA-6 lineage typing is based on:
 ### Input
 * Open Terminal
 * Call program 
-
-```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)]```
+* ```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)]```
 
 <br>
 
