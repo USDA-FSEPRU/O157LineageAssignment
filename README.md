@@ -24,9 +24,8 @@ The LSPA-6 lineage typing is based on:
 
 ### Output
 * A .csv file will be created containing concise information about each strain or contig (as separated by >).
-* Unless directed to a different location, the output CSV file will be created wherever the script is located.
-
-    ![CSV Image](https://github.com/nielsend/O157LineageAssignment/blob/master/CSVImage.png)
+    * Unless directed to a different location, the output CSV file will be created wherever the script is located.
+    * ![CSV Image](https://github.com/nielsend/O157LineageAssignment/blob/master/CSVImage.png)
 
 
 
@@ -34,7 +33,7 @@ The LSPA-6 lineage typing is based on:
     * This may be useful to inspect where the primers could potentially bind in the genome.
     * ```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)] > Information.txt```
 
-    ![Standard Out](https://github.com/nielsend/O157LineageAssignment/blob/master/StandardOut.png)
+    * ![Standard Out](https://github.com/nielsend/O157LineageAssignment/blob/master/StandardOut.png)
 
 
 
