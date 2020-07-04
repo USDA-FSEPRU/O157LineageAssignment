@@ -26,6 +26,8 @@ The LSPA6 lineage typing is based on:
 
 E.g.: Output
 Verbose output on the screen is also an output. This output can be sent to a file. 
+![Standard Out](../StandardOut.png)
+
 
 ```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)] > Information.txt```
 
