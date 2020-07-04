@@ -1,7 +1,7 @@
 # O157 Lineage Assignment
 A script that returns the Lineage-Specific Polymorphism Assay-6 (LSPA-6) result for O157 *Escherichia coli* when given genomic data in a FASTA format.
 
-The LSPA6 lineage typing is based on: 
+The LSPA-6 lineage typing is based on: 
 
 [Yang Z, Kovar J, Kim J, Nietfeldt J, Smith DR, Moxley RA, Olson ME, Fey PD, Benson AK. 2004. Identification of common subpopulations of non-sorbitol-fermenting, beta-glucuronidase-negative *Escherichia coli* O157:H7 from bovine production environments and human clinical samples. Appl Environ Microbiol 70:6846-54.](https://aem.asm.org/content/70/11/6846/article-info)
 
