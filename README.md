@@ -1,5 +1,5 @@
 # O157 Lineage Assignment
-A script that returns the LSPA6 lineage result for O157 *Escherichia coli* when given genomic data in a FASTA format.
+A script that returns the Lineage-Specific Polymorphism Assay-6 (LSPA-6) result for O157 *Escherichia coli* when given genomic data in a FASTA format.
 
 The LSPA6 lineage typing is based on: 
 
@@ -28,3 +28,5 @@ E.g.: Output
 Verbose output on the screen is also an output. This output can be sent to a file. 
 
 ```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)] > Information.txt```
+
+* Please note that LSPA-6 results other than 111111, 211111, and 222222 will be assigned the lineage of "manually assign". Please examine these genomes with greater scrutiny.
