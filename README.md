@@ -11,12 +11,14 @@ The LSPA6 lineage typing is based on:
 * If you are a USDA user with access, this program runs natively on CERES as of 7/1/2020.
 * Python is installed on machine.
 * User has bash terminal.
+<br>
 
 ### Input
 * Open Terminal
 * Call program 
 
 ```./LSPA6Long.sh [output CSV File Name] [Fasta File(s)]```
+<br>
 
 ### Output
 * A .csv file will be created containing concise information about each strain or contig (as separated by >).
