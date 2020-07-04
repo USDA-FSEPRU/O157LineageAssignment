@@ -25,6 +25,7 @@ The LSPA-6 lineage typing is based on:
 ### Output
 * A .csv file will be created containing concise information about each strain or contig (as separated by >).
     * Unless directed to a different location, the output CSV file will be created wherever the script is located.
+    The .csv file can be opened by Microsoft Excel.
     * ![CSV Image](https://github.com/nielsend/O157LineageAssignment/blob/master/CSVImage.png)
 
 
