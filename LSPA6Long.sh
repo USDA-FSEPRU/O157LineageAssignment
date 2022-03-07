@@ -157,8 +157,9 @@ with open(csvFile, 'wb') as csvfile:
 #Loop through files and process them
     for i in range(start, count):
         inFile=sys.argv[i]
-        i = i + 1
         accession = sys.argv[i]
+        i = i + 1
+        
         # this next line is a problem:
         # Assumes the fasta headers have a description.  If this is not true then the 'accession' variable becomes the whole sequence
         with open(inFile, 'r') as myfile:
