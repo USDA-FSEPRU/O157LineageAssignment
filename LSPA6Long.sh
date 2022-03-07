@@ -158,12 +158,14 @@ with open(csvFile, 'wb') as csvfile:
     for i in range(start, count):
         inFile=sys.argv[i]
         i = i + 1
-        
+        accession = sys.argv[i]
+        # this next line is a problem:
+        # Assumes the fasta headers have a description.  If this is not true then the 'accession' variable becomes the whole sequence
         with open(inFile, 'r') as myfile:
             inFile=myfile.read().replace('\n', '')
         
         sequence = inFile
-        accession = sequence[1:].partition(' ')[0] #was 1
+        #accession = sequence[1:].partition(' ')[0] #was 1
         sequence=sequence.upper()
         print 'Accession: '+accession
         
